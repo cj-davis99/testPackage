@@ -9,5 +9,5 @@
 #' @examples
 #' myfunc(3, 5)
 estimate_beta <- function(y, x) {
-  return(lm(y ~ x)$coefficients)
+  return(solve(t(x) %*% x) %*% (t(x) %*% y))
 }
