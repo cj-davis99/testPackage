@@ -11,7 +11,7 @@ my_theme <- function(p) {
   new_p <- p + 
     ggplot2::theme_bw() + 
     ggplot2::theme_classic() + 
-    ggplot2::guide_axis(position = "top")
-    ggplot2::guide_axis(position = "right")
+    ggplot2::sec_axis(ggplot2::guide_axis(position = "top"))
+    ggplot2::sec_axis(ggplot2::guide_axis(position = "right"))
   return(new_p)
 }
