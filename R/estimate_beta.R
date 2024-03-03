@@ -1,9 +1,9 @@
 #' My first function
 #'
-#' @param y A n dimensional numerical vector.
+#' @param y A n dimensional numerical matrix.
 #' @param x A numerical n x K matrix.
 #'
-#' @return A K dimensional numerical vector of coefficients from the linear regression of y on X.
+#' @return A K dimensional numerical matrix of coefficients from the linear regression of y on x.
 #' @export
 #'
 #' @examples

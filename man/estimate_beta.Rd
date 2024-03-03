@@ -7,12 +7,12 @@
 estimate_beta(y, x)
 }
 \arguments{
-\item{y}{A n dimensional numerical vector.}
+\item{y}{A n dimensional numerical matrix.}
 
 \item{x}{A numerical n x K matrix.}
 }
 \value{
-A K dimensional numerical vector of coefficients from the linear regression of y on X.
+A K dimensional numerical matrix of coefficients from the linear regression of y on x.
 }
 \description{
 My first function
