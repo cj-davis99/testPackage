@@ -2,7 +2,7 @@
 % Please edit documentation in R/estimate_beta.R
 \name{estimate_beta}
 \alias{estimate_beta}
-\title{My first function}
+\title{Estimate the linear regression coefficients without an intercept}
 \usage{
 estimate_beta(y, x)
 }
@@ -15,8 +15,8 @@ estimate_beta(y, x)
 A K dimensional numerical matrix of coefficients from the linear regression of y on x.
 }
 \description{
-My first function
+Estimate the linear regression coefficients without an intercept
 }
 \examples{
-myfunc(3, 5)
+estimate_beta(log_wages,education)
 }

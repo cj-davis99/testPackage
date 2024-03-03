@@ -1,4 +1,4 @@
-#' My first function
+#' Estimate the linear regression coefficients without an intercept
 #'
 #' @param y A n dimensional numerical matrix.
 #' @param x A numerical n x K matrix.
@@ -7,7 +7,7 @@
 #' @export
 #'
 #' @examples
-#' myfunc(3, 5)
+#' estimate_beta(log_wages,education)
 estimate_beta <- function(y, x) {
   return(solve(t(x) %*% x) %*% (t(x) %*% y))
 }
